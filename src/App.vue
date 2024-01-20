@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="w-full h-full flex items-center">
+  <div class="w-full h-full flex retrato-tablet:flex-row flex-col items-center">
     <Navbar />
     <Main/>
   </div>
