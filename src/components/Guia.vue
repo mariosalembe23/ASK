@@ -25,6 +25,12 @@
           </svg>
           Guia
         </h2>
+        <button
+          @click="CloseGuideCard"
+          class="text-white px-6 py-2 rounded font-medium transition-all hover:ring-2 hover:ring-indigo-600 bg-indigo-600"
+        >
+          OK
+        </button>
       </header>
       <div class="mt-3 h-full overflow-y-auto w-full">
         <div class="intrudution p-3">
@@ -69,14 +75,6 @@
           </ul>
         </div>
       </div>
-      <footer class="text-end">
-        <button
-        @click="CloseGuideCard"
-          class="text-white px-6 py-2 rounded font-medium transition-all hover:ring-2 hover:ring-indigo-600 bg-indigo-600"
-        >
-          OK
-        </button>
-      </footer>
     </div>
   </aside>
 </template>
