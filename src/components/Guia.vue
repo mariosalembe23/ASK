@@ -68,7 +68,7 @@
               Ideia, Modificação ou Melhoria!
             </li>
             <li
-              class="font-['Inter'] font-medium leading-7 text-[15px] text-white"
+              class="font-['Inter'] font-medium pb-8 leading-7 text-[15px] text-white"
             >
               O Jogo Termina quando o seu Total de Dinheiro For 0.
             </li>
