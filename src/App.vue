@@ -11,7 +11,7 @@ export default {
 
 <template>
   <div class="w-full h-full flex retrato-tablet:flex-row flex-col items-center">
-    <Navbar />
+    <Navbar/>
     <Main/>
   </div>
 </template>

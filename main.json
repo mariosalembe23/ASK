@@ -1,0 +1,314 @@
+{
+  "questions": [
+    {
+      "question": "Em que ano a União Soviética foi dissolvida?",
+      "options": ["1980", "1991", "2000", "1975"],
+      "answer": "1991"
+    },
+    {
+      "question": "Qual é o país mais populoso do mundo?",
+      "options": ["Índia", "Estados Unidos", "Brasil", "China"],
+      "answer": "China"
+    },
+    {
+      "question": "Qual é a maior ilha do mundo?",
+      "options": ["Groenlândia", "Austrália", "Java", "Borneo"],
+      "answer": "Groenlândia"
+    },
+    {
+      "question": "Qual é a distância média entre a Terra e o Sol?",
+      "options": [
+        "50 milhões de milhas",
+        "100 milhões de milhas",
+        "200 milhões de milhas",
+        "149,6 milhões de milhas"
+      ],
+      "answer": "149,6 milhões de milhas"
+    },
+    {
+      "question": "Quem escreveu '1984'?",
+      "options": ["Aldous Huxley", "George Orwell", "HG Wells", "Ray Bradbury"],
+      "answer": "George Orwell"
+    },
+    {
+      "question": "Qual é o livro mais vendido de todos os tempos?",
+      "options": [
+        "O Senhor dos Anéis",
+        "Dom Quixote",
+        "Bíblia",
+        "Citações do Presidente Mao Tse-tung"
+      ],
+      "answer": "Bíblia"
+    },
+    {
+      "question": "Qual é a camada mais externa da atmosfera terrestre?",
+      "options": ["Troposfera", "Exosfera", "Estratosfera", "Mesosfera"],
+      "answer": "Exosfera"
+    },
+    {
+      "question": "Qual é o país mais populoso da Europa?",
+      "options": ["Alemanha", "França", "Reino Unido", "Rússia"],
+      "answer": "Alemanha"
+    },
+    {
+      "question": "Em que país está localizada a Grande Muralha da China?",
+      "options": ["Índia", "Japão", "Coreia do Sul", "China"],
+      "answer": "China"
+    },
+    {
+      "question": "Qual é a cidade mais populosa do mundo?",
+      "options": ["Delhi", "Cidade do México", "Tóquio", "Xangai"],
+      "answer": "Tóquio"
+    },
+    {
+      "question": "Qual é a maior ilha do mundo?",
+      "options": ["Borneo", "Java", "Groenlândia", "Austrália"],
+      "answer": "Groenlândia"
+    },
+    {
+      "question": "Quem foi o fundador da Microsoft?",
+      "options": ["Steve Jobs", "Mark Zuckerberg", "Larry Page", "Bill Gates"],
+      "answer": "Bill Gates"
+    },
+    {
+      "question": "Qual é o instrumento musical mais antigo do mundo?",
+      "options": ["Tambor", "Lira", "Flauta", "Harpa"],
+      "answer": "Flauta"
+    },
+    {
+      "question": "Qual é a distância média entre a Terra e a Lua?",
+      "options": [
+        "600.000 milhas",
+        "250.000 milhas",
+        "500.000 milhas",
+        "384.400 milhas"
+      ],
+      "answer": "384.400 milhas"
+    },
+    {
+      "question": "Qual é o país mais extenso do mundo?",
+      "options": ["Estados Unidos", "China", "Rússia", "Canadá"],
+      "answer": "Rússia"
+    },
+    {
+      "question": "Qual é o país mais rápido do mundo?",
+      "options": ["Pronghorn", "Leão", "Cheetah", "Falcão Peregrino"],
+      "answer": "Falcão Peregrino"
+    },
+    {
+      "question": "Quem foi o primeiro homem a pisar na lua?",
+      "options": [
+        "Yuri Gagarin",
+        "Buzz Aldrin",
+        "Alan Shepard",
+        "Neil Armstrong"
+      ],
+      "answer": "Neil Armstrong"
+    },
+    {
+      "question": "Qual é o símbolo químico do ouro?",
+      "options": ["Cu", "Fe", "Ag", "Au"],
+      "answer": "Au"
+    },
+    {
+      "question": "Qual é o menor país do mundo em termos de área terrestre?",
+      "options": ["Nauru", "San Marino", "Vaticano", "Mônaco"],
+      "answer": "Vaticano"
+    },
+    {
+      "question": "Qual é a principal religião na Índia?",
+      "options": ["Budismo", "Islamismo", "Cristianismo", "Hinduísmo"],
+      "answer": "Hinduísmo"
+    },
+    {
+      "question": "Quantos núcleos existem no arco-íris?",
+      "options": ["5", "9", "10", "7"],
+      "answer": "7"
+    },
+    {
+      "question": "Qual é o maior animal terrestre?",
+      "options": ["Girafa", "Hipopótamo", "Rinoceronte", "Elefante africano"],
+      "answer": "Elefante africano"
+    },
+    {
+      "question": "Qual é a montanha mais alta da África?",
+      "options": [
+        "Monte Elbrus",
+        "Monte Everest",
+        "Monte McKinley",
+        "Monte Kilimanjaro"
+      ],
+      "answer": "Monte Kilimanjaro"
+    },
+    {
+      "question": "Em que ano a Guerra Civil Americana terminou?",
+      "options": ["1850", "1800", "1875", "1865"],
+      "answer": "1865"
+    },
+    {
+      "question": "Quem pintou a 'Mona Lisa'?",
+      "options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Cláudio Monet",
+        "Leonardo da Vinci"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "Qual é o país mais jovem do mundo?",
+      "options": ["Timor-Leste", "Eritreia", "Sudão do Sul", "Kosovo"],
+      "answer": "Sudão do Sul"
+    },
+    {
+      "question": "Quantos continentes existem?",
+      "options": ["8", "5", "7", "6"],
+      "answer": "7"
+    },
+    {
+      "question": "Quem foi o autor de 'Dom Quixote'?",
+      "options": [
+        "William Shakespeare",
+        "Leo Tolstoy",
+        "Charles Dickens",
+        "Miguel de Cervantes"
+      ],
+      "answer": "Miguel de Cervantes"
+    },
+    {
+      "question": "Qual é o país mais extenso do mundo?",
+      "options": ["Estados Unidos", "China", "Rússia", "Canadá"],
+      "answer": "Rússia"
+    },
+    {
+      "question": "Qual é o animal mais rápido do mundo?",
+      "options": ["Cheetah", "Pronghorn", "Leão", "Falcão Peregrino"],
+      "answer": "Falcão Peregrino"
+    },
+    {
+      "question": "Qual é o país mais populoso da Europa?",
+      "options": ["Reino Unido", "Alemanha", "França", "Rússia"],
+      "answer": "Alemanha"
+    },
+    {
+      "question": "Qual é a cidade mais populosa do mundo?",
+      "options": ["Tóquio", "Xangai", "Cidade do México", "Delhi"],
+      "answer": "Tóquio"
+    },
+    {
+      "question": "Em que país está localizado na Grande Muralha da China?",
+      "options": ["Japão", "Coreia do Sul", "Índia", "China"],
+      "answer": "China"
+    },
+    {
+      "question": "Qual é a distância média entre a Terra e o Sol?",
+      "options": [
+        "200 milhões de milhas",
+        "100 milhões de milhas",
+        "149,6 milhões de milhas",
+        "50 milhões de milhas"
+      ],
+      "answer": "149,6 milhões de milhas"
+    },
+    {
+      "question": "Qual é o instrumento musical mais antigo do mundo?",
+      "options": ["Flauta", "Harpa", "Tambor", "Lira"],
+      "answer": "Flauta"
+    },
+    {
+      "question": "Quem foi o fundador da Microsoft?",
+      "options": ["Mark Zuckerberg", "Larry Page", "Steve Jobs", "Bill Gates"],
+      "answer": "Bill Gates"
+    },
+    {
+      "question": "Qual é a maior ilha do mundo?",
+      "options": ["Austrália", "Borneo", "Java", "Groenlândia"],
+      "answer": "Groenlândia"
+    },
+    {
+      "question": "Quem foi o autor de 'Dom Quixote'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Leo Tolstoy",
+        "Miguel de Cervantes"
+      ],
+      "answer": "Miguel de Cervantes"
+    },
+    {
+      "question": "Qual é o país mais jovem do mundo?",
+      "options": ["Eritreia", "Kosovo", "Sudão do Sul", "Timor-Leste"],
+      "answer": "Sudão do Sul"
+    },
+    {
+      "question": "Quantos continentes existem?",
+      "options": ["5", "6", "8", "7"],
+      "answer": "7"
+    },
+    {
+        "question": "Qual é a temperatura de congelamento da água em graus Celsius?",
+        "options": ["-10°C", "20°C", "100°C", "0°C"],
+        "answer": "0°C"
+      },
+      {
+        "question": "Quem foi o primeiro presidente dos Estados Unidos?",
+        "options": ["João Adams", "Abraham Lincoln", "Thomas Jefferson", "George Washington"],
+        "answer": "George Washington"
+      },
+      {
+        "question": "Quantos ossos adultos humanos têm?",
+        "options": ["220", "180", "195", "206"],
+        "answer": "206"
+      },
+      {
+        "question": "Qual é o maior país do mundo em termos de área terrestre?",
+        "options": ["Canadá", "Estados Unidos", "China", "Rússia"],
+        "answer": "Rússia"
+      },
+      {
+        "question": "Qual é o maior deserto do mundo?",
+        "options": ["Deserto da Arábia", "Deserto de Gobi", "Deserto do Atacama", "Deserto do Saara"],
+        "answer": "Deserto do Saara"
+      },
+      {
+        "question": "Qual é o rio mais longo da América do Sul?",
+        "options": ["Rio Paraná", "Rio Negro", "Rio São Francisco", "Rio Amazonas"],
+        "answer": "Rio Amazonas"
+      },
+      {
+        "question": "Em que continente está localizado na Austrália?",
+        "options": ["Ásia", "Europa", "América do Sul", "Oceânia"],
+        "answer": "Oceânia"
+      },
+      {
+        "question": "Qual é o país mais extenso do mundo?",
+        "options": ["Rússia", "Canadá", "China", "Estados Unidos"],
+        "answer": "Rússia"
+      },
+      {
+        "question": "Qual é o maior oceano do mundo?",
+        "options": ["Oceano Pacífico", "Oceano Índico", "Oceano Antártico", "Oceano Atlântico"],
+        "answer": "Oceano Pacífico"
+      },
+      {
+        "question": "Em que ano começou a Segunda Guerra Mundial?",
+        "options": ["1941", "1939", "1933", "1945"],
+        "answer": "1939"
+      },
+      {
+        "question": "Quem escreveu 'Romeu e Julieta'?",
+        "options": ["Charles Dickens", "Jane Austen", "Mark Twain", "William Shakespeare"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "question": "Qual é o livro mais vendido de todos os tempos?",
+        "options": ["Citações do Presidente Mao Tse-tung", "Dom Quixote", "O Senhor dos Anéis", "Bíblia"],
+        "answer": "Bíblia"
+      },
+      {
+        "question": "Qual é a velocidade da luz?",
+        "options": ["150.000.000 m/s", "500.000.000 m/s", "200.000.000 m/s", "299.792.458m/s"],
+        "answer": "299.792.458 metros por segundo"
+      }
+  ]
+}
