@@ -1,7 +1,13 @@
-# Vue 3 + Vite
+## ASK - Jogo de Questões
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este é um Jogo de Perguntas Internacionais Diversas para Aprimorar o Conhecimento e Treinar minhas Habilidades em Vue.js!
 
-## Recommended IDE Setup
+### Tecnologias
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+ <img src="https://skillicons.dev/icons?i=vuejs,vite,tailwind" />
+
+### Imagens
+
+![](./screen1.png)
+![](./screen2.png)
+![](./screen3.png)
