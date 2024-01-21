@@ -5,6 +5,7 @@ import LoseInfo from "./LoseInfo.vue";
 import Navbar from "./Navbar.vue";
 import Congrats from "./Congrats.vue";
 import Settings from "./Settings.vue";
+import Guia from './Guia.vue'
 
 export default {
   data() {
@@ -35,6 +36,7 @@ export default {
     AtomSpinner,
     Congrats,
     Settings,
+    Guia
   },
 
   mounted() {
@@ -284,7 +286,7 @@ export default {
         :numberCorrectQuestions="correct"
         :functionRestartGame="RestartGameMain"
       />
-     
+     <!-- <Guia /> -->
     </div>
   </main>
 </template>

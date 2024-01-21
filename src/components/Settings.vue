@@ -138,7 +138,7 @@ export default {
 .card_settings {
   transform: scale(0.5);
   opacity: 0.2;
-  animation: showCardSettings 0.6s ease-in-out forwards;
+  animation: showCardSettings 0.4s ease-in-out forwards;
 }
 
 @keyframes showCardSettings {

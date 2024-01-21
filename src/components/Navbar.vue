@@ -1,9 +1,11 @@
 <script>
 import Settings from "./Settings.vue";
+import Guia from "./Guia.vue";
 export default {
   data() {
     return {
       visibilitySettings: false,
+      visibilityGuide: true,
     };
   },
   props: {
@@ -12,6 +14,7 @@ export default {
 
   components: {
     Settings,
+    Guia,
   },
 
   methods: {
@@ -20,6 +23,12 @@ export default {
     },
     CloseSettingsCard() {
       this.visibilitySettings = false;
+    },
+    OpenGuideCard() {
+      this.visibilityGuide = true;
+    },
+    CloseGuideCard() {
+      this.visibilityGuide = false;
     },
   },
 };
@@ -36,7 +45,7 @@ export default {
           class="w-full inline-flex items-center retrato-tablet:flex-col flex-row retrato-tablet:justify-center gap-3 retrato-tablet:gap-8"
         >
           <button
-          @click="OpenSettingsCard"
+            @click="OpenSettingsCard"
             class="text-white transition-all hover:text-zinc-700 retrato-tablet:hidden inline-flex"
             title="Menu"
           >
@@ -61,7 +70,7 @@ export default {
               >A<span class="text-white">S</span>K</a
             >
           </li>
-          
+
           <li class="retrato-tablet:inline-block hidden">
             <button
               class="text-white transition-all hover:text-zinc-700"
@@ -85,6 +94,7 @@ export default {
           </li>
           <li class="retrato-tablet:inline-block hidden">
             <button
+              @click="OpenGuideCard"
               class="text-white transition-all hover:text-zinc-700"
               title="Guia"
             >
@@ -147,6 +157,7 @@ export default {
           </svg>
         </button>
         <button
+        @click="OpenGuideCard"
           class="text-white retrato-tablet:hidden inline-flex transition-all hover:text-zinc-700"
           title="Guia"
         >
@@ -167,6 +178,10 @@ export default {
         </button>
       </div>
     </div>
-    <Settings v-show="visibilitySettings" :closeSettingsFuntion="CloseSettingsCard"/>
+    <Settings
+      v-show="visibilitySettings"
+      :closeSettingsFuntion="CloseSettingsCard"
+    />
+    <Guia v-show="visibilityGuide" :closeGuideFunction="CloseGuideCard" />
   </header>
 </template>
