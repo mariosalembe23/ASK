@@ -1,6 +1,146 @@
 {
   "questions": [
     {
+      "question": "Qual é o maior planeta do nosso sistema solar?",
+      "options": ["Vênus", "Júpiter", "Marte", "Saturno"],
+      "answer": "Júpiter"
+    },
+    {
+      "question": "Quem foi o primeiro cientista a formular as leis do movimento e a lei da gravidade?",
+      "options": [
+        "Galileu Galilei",
+        "Isaac Newton",
+        "Albert Einstein",
+        "Nikola Tesla"
+      ],
+      "answer": "Isaac Newton"
+    },
+    {
+      "question": "Qual é o metal mais abundante na crosta terrestre?",
+      "options": ["Ouro", "Ferro", "Alumínio", "Cobre"],
+      "answer": "Alumínio"
+    },
+    {
+      "question": "Quem escreveu 'O Senhor dos Anéis'?",
+      "options": [
+        "J.K. Rowling",
+        "J.R.R. Tolkien",
+        "George R.R. Martin",
+        "C.S. Lewis"
+      ],
+      "answer": "J.R.R. Tolkien"
+    },
+    {
+      "question": "Qual é o maior rio do mundo em volume de água?",
+      "options": ["Nilo", "Amazonas", "Yangtzé", "Mississipi"],
+      "answer": "Amazonas"
+    },
+    {
+      "question": "Quem é conhecido como o 'pai da computação'?",
+      "options": ["Bill Gates", "Alan Turing", "Steve Jobs", "Mark Zuckerberg"],
+      "answer": "Alan Turing"
+    },
+    {
+      "question": "Qual é a capital da Austrália?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "answer": "Canberra"
+    },
+    {
+      "question": "Qual é o processo pelo qual as plantas produzem seu próprio alimento?",
+      "options": ["Fotossíntese", "Quimiossíntese", "Respiração", "Digestão"],
+      "answer": "Fotossíntese"
+    },
+    {
+      "question": "Quem foi o primeiro ser humano a viajar para o espaço?",
+      "options": [
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "Buzz Aldrin",
+        "Valentina Tereshkova"
+      ],
+      "answer": "Yuri Gagarin"
+    },
+    {
+      "question": "Qual é a montanha mais alta do mundo?",
+      "options": [
+        "Monte Elbrus",
+        "Monte Everest",
+        "Monte McKinley",
+        "Monte Kilimanjaro"
+      ],
+      "answer": "Monte Everest"
+    },
+    {
+      "question": "Quantos ossos tem um ser humano adulto?",
+      "options": ["206", "180", "220", "195"],
+      "answer": "206"
+    },
+    {
+      "question": "Qual é o país mais populoso da África?",
+      "options": ["Nigéria", "Egito", "Etiópia", "África do Sul"],
+      "answer": "Nigéria"
+    },
+    {
+      "question": "Qual é o maior oceano do mundo?",
+      "options": [
+        "Oceano Pacífico",
+        "Oceano Índico",
+        "Oceano Antártico",
+        "Oceano Atlântico"
+      ],
+      "answer": "Oceano Pacífico"
+    },
+    {
+      "question": "Quem é o autor de 'A Origem das Espécies'?",
+      "options": [
+        "Charles Darwin",
+        "Sigmund Freud",
+        "Marie Curie",
+        "Albert Einstein"
+      ],
+      "answer": "Charles Darwin"
+    },
+    {
+      "question": "Qual é a unidade básica da estrutura de DNA?",
+      "options": ["Ácido graxo", "Nucleotídeo", "Aminoácido", "Glicose"],
+      "answer": "Nucleotídeo"
+    },
+    {
+      "question": "Quem pintou 'A Noite Estrelada'?",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Claude Monet",
+        "Leonardo da Vinci"
+      ],
+      "answer": "Vincent van Gogh"
+    },
+    {
+      "question": "Qual é a velocidade da luz?",
+      "options": [
+        "150.000.000 m/s",
+        "500.000.000 m/s",
+        "200.000.000 m/s",
+        "299.792.458 m/s"
+      ],
+      "answer": "299.792.458 m/s"
+    },
+    {
+      "question": "Qual é o metal líquido à temperatura ambiente?",
+      "options": ["Ferro", "Cobre", "Mercúrio", "Alumínio"],
+      "answer": "Mercúrio"
+    },
+    {
+      "question": "Qual é o animal mais veloz do planeta?",
+      "options": ["Guepardo", "Leão", "Elefante", "Águia"],
+      "answer": "Guepardo"
+    },
+    {
+      "question": "Qual é a maior ilha do Mediterrâneo?",
+      "options": ["Córsega", "Sicília", "Sardenha", "Chipre"],
+      "answer": "Sicília"
+    },
+    {
       "question": "Em que ano a União Soviética foi dissolvida?",
       "options": ["1980", "1991", "2000", "1975"],
       "answer": "1991"
@@ -181,134 +321,79 @@
       "answer": "Rússia"
     },
     {
-      "question": "Qual é o animal mais rápido do mundo?",
-      "options": ["Cheetah", "Pronghorn", "Leão", "Falcão Peregrino"],
-      "answer": "Falcão Peregrino"
-    },
-    {
-      "question": "Qual é o país mais populoso da Europa?",
-      "options": ["Reino Unido", "Alemanha", "França", "Rússia"],
-      "answer": "Alemanha"
-    },
-    {
-      "question": "Qual é a cidade mais populosa do mundo?",
-      "options": ["Tóquio", "Xangai", "Cidade do México", "Delhi"],
-      "answer": "Tóquio"
-    },
-    {
-      "question": "Em que país está localizado na Grande Muralha da China?",
-      "options": ["Japão", "Coreia do Sul", "Índia", "China"],
-      "answer": "China"
-    },
-    {
-      "question": "Qual é a distância média entre a Terra e o Sol?",
+      "question": "Qual é o maior deserto do mundo?",
       "options": [
-        "200 milhões de milhas",
-        "100 milhões de milhas",
-        "149,6 milhões de milhas",
-        "50 milhões de milhas"
+        "Deserto da Arábia",
+        "Deserto de Gobi",
+        "Deserto do Atacama",
+        "Deserto do Saara"
       ],
-      "answer": "149,6 milhões de milhas"
+      "answer": "Deserto do Saara"
     },
     {
-      "question": "Qual é o instrumento musical mais antigo do mundo?",
-      "options": ["Flauta", "Harpa", "Tambor", "Lira"],
-      "answer": "Flauta"
-    },
-    {
-      "question": "Quem foi o fundador da Microsoft?",
-      "options": ["Mark Zuckerberg", "Larry Page", "Steve Jobs", "Bill Gates"],
-      "answer": "Bill Gates"
-    },
-    {
-      "question": "Qual é a maior ilha do mundo?",
-      "options": ["Austrália", "Borneo", "Java", "Groenlândia"],
-      "answer": "Groenlândia"
-    },
-    {
-      "question": "Quem foi o autor de 'Dom Quixote'?",
+      "question": "Qual é o rio mais longo da América do Sul?",
       "options": [
-        "Charles Dickens",
-        "William Shakespeare",
-        "Leo Tolstoy",
-        "Miguel de Cervantes"
+        "Rio Paraná",
+        "Rio Negro",
+        "Rio São Francisco",
+        "Rio Amazonas"
       ],
-      "answer": "Miguel de Cervantes"
+      "answer": "Rio Amazonas"
     },
     {
-      "question": "Qual é o país mais jovem do mundo?",
-      "options": ["Eritreia", "Kosovo", "Sudão do Sul", "Timor-Leste"],
-      "answer": "Sudão do Sul"
+      "question": "Em que continente está localizado na Austrália?",
+      "options": ["Ásia", "Europa", "América do Sul", "Oceânia"],
+      "answer": "Oceânia"
     },
     {
-      "question": "Quantos continentes existem?",
-      "options": ["5", "6", "8", "7"],
-      "answer": "7"
+      "question": "Qual é o país mais extenso do mundo?",
+      "options": ["Rússia", "Canadá", "China", "Estados Unidos"],
+      "answer": "Rússia"
     },
     {
-        "question": "Qual é a temperatura de congelamento da água em graus Celsius?",
-        "options": ["-10°C", "20°C", "100°C", "0°C"],
-        "answer": "0°C"
-      },
-      {
-        "question": "Quem foi o primeiro presidente dos Estados Unidos?",
-        "options": ["João Adams", "Abraham Lincoln", "Thomas Jefferson", "George Washington"],
-        "answer": "George Washington"
-      },
-      {
-        "question": "Quantos ossos adultos humanos têm?",
-        "options": ["220", "180", "195", "206"],
-        "answer": "206"
-      },
-      {
-        "question": "Qual é o maior país do mundo em termos de área terrestre?",
-        "options": ["Canadá", "Estados Unidos", "China", "Rússia"],
-        "answer": "Rússia"
-      },
-      {
-        "question": "Qual é o maior deserto do mundo?",
-        "options": ["Deserto da Arábia", "Deserto de Gobi", "Deserto do Atacama", "Deserto do Saara"],
-        "answer": "Deserto do Saara"
-      },
-      {
-        "question": "Qual é o rio mais longo da América do Sul?",
-        "options": ["Rio Paraná", "Rio Negro", "Rio São Francisco", "Rio Amazonas"],
-        "answer": "Rio Amazonas"
-      },
-      {
-        "question": "Em que continente está localizado na Austrália?",
-        "options": ["Ásia", "Europa", "América do Sul", "Oceânia"],
-        "answer": "Oceânia"
-      },
-      {
-        "question": "Qual é o país mais extenso do mundo?",
-        "options": ["Rússia", "Canadá", "China", "Estados Unidos"],
-        "answer": "Rússia"
-      },
-      {
-        "question": "Qual é o maior oceano do mundo?",
-        "options": ["Oceano Pacífico", "Oceano Índico", "Oceano Antártico", "Oceano Atlântico"],
-        "answer": "Oceano Pacífico"
-      },
-      {
-        "question": "Em que ano começou a Segunda Guerra Mundial?",
-        "options": ["1941", "1939", "1933", "1945"],
-        "answer": "1939"
-      },
-      {
-        "question": "Quem escreveu 'Romeu e Julieta'?",
-        "options": ["Charles Dickens", "Jane Austen", "Mark Twain", "William Shakespeare"],
-        "answer": "William Shakespeare"
-      },
-      {
-        "question": "Qual é o livro mais vendido de todos os tempos?",
-        "options": ["Citações do Presidente Mao Tse-tung", "Dom Quixote", "O Senhor dos Anéis", "Bíblia"],
-        "answer": "Bíblia"
-      },
-      {
-        "question": "Qual é a velocidade da luz?",
-        "options": ["150.000.000 m/s", "500.000.000 m/s", "200.000.000 m/s", "299.792.458m/s"],
-        "answer": "299.792.458 metros por segundo"
-      }
+      "question": "Quem foi Nelson Mandela?",
+      "options": ["Ativista", "Político", "Escritor", "Cientista"],
+      "answer": "Ativista"
+    },
+    {
+      "question": "Qual é a capital do Egito?",
+      "options": ["Nairóbi", "Casablanca", "Cairo", "Joanesburgo"],
+      "answer": "Cairo"
+    },
+    {
+      "question": "Em que país fica localizado o Monte Kilimanjaro?",
+      "options": ["Quênia", "Nigéria", "Tanzânia", "Etiópia"],
+      "answer": "Tanzânia"
+    },
+    {
+      "question": "Quem é conhecido como o Rei do Afrobeat?",
+      "options": ["Fela Kuti", "Miriam Makeba", "Youssou N'Dour", "Angelique Kidjo"],
+      "answer": "Fela Kuti"
+    },
+    {
+      "question": "O que é a dança Gumboot?",
+      "options": ["Dança Tribal", "Dança de Rua", "Dança Ritual", "Dança Teatral"],
+      "answer": "Dança de Rua"
+    },
+    {
+      "question": "Qual é o significado cultural da máscara africana?",
+      "options": ["Proteção", "Comemoração", "Espiritualidade", "Educação"],
+      "answer": "Espiritualidade"
+    },
+    {
+      "question": "Quem foi Chinua Achebe?",
+      "options": ["Músico", "Escritor", "Ator", "Cientista"],
+      "answer": "Escritor"
+    },
+    {
+      "question": "Em que país nasceu o movimento anti-apartheid?",
+      "options": ["Quênia", "Gana", "África do Sul", "Nigéria"],
+      "answer": "África do Sul"
+    },
+    {
+      "question": "Quem Foi o Escritor do Livo 'A Segunda Mulher'?",
+      "options": ["José Saramago", "Helton Cassoma", "Fernando Pessoa", "Sophia Andresen"],
+      "answer": "Helton Cassoma"
+    }
   ]
 }

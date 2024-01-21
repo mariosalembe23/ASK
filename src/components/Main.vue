@@ -23,6 +23,7 @@ export default {
       loading: true,
       questionsFinished: false,
       wrongQuestions: 0,
+      correct: 0,
     };
   },
 
@@ -54,7 +55,7 @@ export default {
     async GetAllQuestions() {
       try {
         const { data } = await axios.get(
-          "https://gist.githubusercontent.com/morphosisUp/1e93810b5af5ea978b54966c44193cbd/raw/c242c7f9ff2d282cb99771dee8f4fdef99c1adae/questions"
+          "https://gist.githubusercontent.com/morphosisUp/1e93810b5af5ea978b54966c44193cbd/raw/c3d59dbc01770c6ecc3e55268fc70f4357f9a557/questions"
         );
 
         this.questionsArray = await data.questions;
@@ -73,8 +74,6 @@ export default {
         // RESPOSTA ERRADA
         this.wrongQuestions += 1;
         this.progressController += 1;
-
-        console.log(this.wrongQuestions);
         buttonSelectedChoose.classList.add("incorrect_class");
 
         AllButtonOption.forEach((button) => {
@@ -98,6 +97,7 @@ export default {
       this.progressController += 1;
       this.buttonDisabled = false;
       this.pointsInMoney += 150;
+      this.correct += 1;
 
       if (buttonSelectedChoose.innerHTML === this.CorrectAnswer) {
         // IT'S CORRETC
@@ -107,42 +107,41 @@ export default {
         }, 1000);
       }
     },
-
     RenderRandomQuestion() {
       const AllButtonOption = document.querySelectorAll(".button_option");
 
       AllButtonOption.forEach((button) => {
         button.classList.remove("correct_class");
       });
-     
+
       this.buttonSelected = null;
       this.controllerChangeQuestion = 0;
       const totalQuestions = this.questionsArray.length;
-      const AleatoryIndex = Math.floor(Math.random() * totalQuestions);
 
-      if (this.questionsAlreadySelected.length >= 5) {
+      
+      if (this.questionsAlreadySelected.length >= totalQuestions) {
         this.questionsFinished = true;
+        return;
       }
 
-      if (this.questionsAlreadySelected.length === totalQuestions) {
-        this.questionsAlreadySelected = [];
-        console.log("Respostas Esgotadas");
-      }
+      let AleatoryIndex;
 
-      if (!this.questionsAlreadySelected.includes(AleatoryIndex)) {
-        this.questionsAlreadySelected.push(AleatoryIndex);
+     
+      do {
+        AleatoryIndex = Math.floor(Math.random() * totalQuestions);
+      } while (this.questionsAlreadySelected.includes(AleatoryIndex));
 
-        console.table(this.questionsAlreadySelected);
+      this.questionsAlreadySelected.push(AleatoryIndex);
 
-        this.RecenteQuestion = this.questionsArray[AleatoryIndex].question;
-        this.RecenteOptions = this.questionsArray[AleatoryIndex].options;
-        this.CorrectAnswer = this.questionsArray[AleatoryIndex].answer;
-      } else {
-        this.RenderRandomQuestion();
-      }
+      console.table(this.questionsAlreadySelected);
+
+      this.RecenteQuestion = this.questionsArray[AleatoryIndex].question;
+      this.RecenteOptions = this.questionsArray[AleatoryIndex].options;
+      this.CorrectAnswer = this.questionsArray[AleatoryIndex].answer;
     },
     RestartGameMain() {
-      this.wrongQuestions = 0
+      this.questionsFinished = false
+      this.wrongQuestions = 0;
       this.pointsInMoney = 100;
       this.playLose = false;
       this.progressController = 1;
@@ -165,10 +164,6 @@ export default {
       this.RecenteQuestion = this.questionsArray[AleatoryIndex].question;
       this.RecenteOptions = this.questionsArray[AleatoryIndex].options;
       this.CorrectAnswer = this.questionsArray[AleatoryIndex].answer;
-
-      if (this.questionsAlreadySelected.length === totalQuestions) {
-        this.questionsAlreadySelected = [];
-      }
     },
   },
 };
@@ -279,7 +274,13 @@ export default {
         :restartGame="RestartGameMain"
         :controllerLose="playLose"
       />
-      <Congrats v-show="questionsFinished" :totalMoney="pointsInMoney" :numberWrongQuestions="wrongQuestions"/>
+      <Congrats
+        v-show="questionsFinished"
+        :totalMoney="pointsInMoney"
+        :numberWrongQuestions="wrongQuestions"
+        :numberCorrectQuestions="correct"
+        :functionRestartGame="RestartGameMain"
+      />
     </div>
   </main>
 </template>

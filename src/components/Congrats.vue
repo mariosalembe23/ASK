@@ -71,10 +71,11 @@
             class="flex px-2 items-center border-b pb-4 border-zinc-700 justify-between"
           >
             <p class="flex items-center font-medium text-white">
-              + 20 Respostas Certas
+              + 15 Respostas Certas
             </p>
 
             <svg
+              v-if="numberCorrectQuestions > 15"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -88,20 +89,41 @@
                 d="m4.5 12.75 6 6 9-13.5"
               />
             </svg>
+
+            <svg
+              v-else
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 fill-red-400"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
+                clip-rule="evenodd"
+              />
+            </svg>
           </div>
           <div
             class="flex px-2 items-center border-b pb-4 border-zinc-700 justify-between"
           >
             <p class="flex items-center font-medium text-white">
-              Respostas Erradas
+              Respostas Erradas / Corretas
             </p>
 
-            <p class="font-medium text-red-400">{{ numberWrongQuestions }}</p>
+            <div class="flex items-center gap-1">
+              <p class="font-medium text-red-400">
+                {{ numberWrongQuestions }}
+              </p>
+              <span class="text-zinc-200">/</span>
+              <p class="text-green-500">{{ numberCorrectQuestions }}</p>
+            </div>
           </div>
           <div
             class="flex retrato-tablet:flex-row flex-col items-center gap-2 justify-center"
           >
             <button
+              @click="RestartGame"
               class="bg-indigo-700 px-6 retrato-tablet:w-32 w-full py-2 rounded text-white font-medium transition-all hover:ring-2 hover:ring-indigo-600"
             >
               Reiniciar
@@ -123,6 +145,14 @@ export default {
   props: {
     totalMoney: Number,
     numberWrongQuestions: Number,
+    numberCorrectQuestions: Number,
+    functionRestartGame: Function,
+  },
+
+  methods: {
+    RestartGame() {
+      this.functionRestartGame();
+    },
   },
 };
 </script>
