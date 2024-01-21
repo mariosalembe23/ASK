@@ -5,7 +5,7 @@ import LoseInfo from "./LoseInfo.vue";
 import Navbar from "./Navbar.vue";
 import Congrats from "./Congrats.vue";
 import Settings from "./Settings.vue";
-import Guia from './Guia.vue'
+import Guia from "./Guia.vue";
 
 export default {
   data() {
@@ -36,7 +36,7 @@ export default {
     AtomSpinner,
     Congrats,
     Settings,
-    Guia
+    Guia,
   },
 
   mounted() {
@@ -61,7 +61,7 @@ export default {
     async GetAllQuestions() {
       try {
         const { data } = await axios.get(
-          "https://gist.githubusercontent.com/morphosisUp/1e93810b5af5ea978b54966c44193cbd/raw/c3d59dbc01770c6ecc3e55268fc70f4357f9a557/questions"
+          "https://gist.githubusercontent.com/morphosisUp/1e93810b5af5ea978b54966c44193cbd/raw/92d08765d25cce866eeb04b3cd22cf26ee7eee38/questions"
         );
 
         this.questionsArray = await data.questions;
@@ -286,7 +286,7 @@ export default {
         :numberCorrectQuestions="correct"
         :functionRestartGame="RestartGameMain"
       />
-     <!-- <Guia /> -->
+      <!-- <Guia /> -->
     </div>
   </main>
 </template>

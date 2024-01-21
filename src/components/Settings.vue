@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="fixed z-50 w-full h-full top-0 left-0 right-0 p-2  bg-[#242424] flex retrato-tablet:items-center justify-center"
+    class="fixed z-50 w-full h-full top-0 left-0 right-0 p-2 bg-[#242424] flex retrato-tablet:items-center justify-center"
   >
     <div
       class="max-w-2xl card_settings mx-auto retrato-tablet:mt-0 mt-10 w-full"
@@ -43,7 +43,8 @@
       </header>
       <div class="grid retrato-tablet:grid-cols-2 grid-cols-1 mt-5 gap-3">
         <a
-          href="#"
+          href="https://wa.me/244938393388"
+          target="_blank"
           class="p-4 rounded hover:bg-zinc-800 bg-transparent flex items-center font-medium text-white gap-2 transition-all hover:shadow-lg"
         >
           <svg
@@ -61,6 +62,7 @@
           Conversar
         </a>
         <button
+          @click="SecondaryOpenGuide"
           class="p-4 rounded hover:bg-zinc-800 bg-transparent flex items-center font-medium text-white gap-2 transition-all hover:shadow-lg"
         >
           <svg
@@ -79,7 +81,9 @@
           </svg>
           Guia
         </button>
-        <button
+        <a
+          href="https://github.com/mariosalembe23/ASK"
+          target="_blank"
           class="p-4 rounded hover:bg-zinc-800 bg-transparent flex items-center font-medium text-white gap-2 transition-all hover:shadow-lg"
         >
           <svg
@@ -96,8 +100,9 @@
               d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"
             />
           </svg>
-          Contribuir</button
+          Contribuir</a
         ><button
+          @click="CloseSettingsCard"
           class="p-4 rounded hover:bg-zinc-800 bg-transparent flex items-center font-medium text-white gap-2 transition-all hover:shadow-lg"
         >
           <svg
@@ -111,10 +116,11 @@
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              d="M5.636 5.636a9 9 0 1 0 12.728 0M12 3v9"
+              d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"
             />
           </svg>
-          Sair
+
+          Voltar
         </button>
       </div>
     </div>
@@ -125,8 +131,13 @@
 export default {
   props: {
     closeSettingsFuntion: Function,
+    openGuideCard: Function,
   },
   methods: {
+    SecondaryOpenGuide() {
+      this.closeSettingsFuntion();
+      this.openGuideCard();
+    },
     CloseSettingsCard() {
       this.closeSettingsFuntion();
     },
