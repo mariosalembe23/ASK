@@ -215,7 +215,7 @@ export default {
         </div>
 
         <h1
-          class="question pt-8 retrato-tablet:py-4 text-xl font-normal text-white"
+          class="question pt-8 retrato-tablet:py-4 retrato-tablet:text-xl text-base font-normal text-white"
         >
           {{ RecenteQuestion }}
         </h1>
