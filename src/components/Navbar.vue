@@ -1,7 +1,26 @@
 <script>
+import Settings from "./Settings.vue";
 export default {
+  data() {
+    return {
+      visibilitySettings: false,
+    };
+  },
   props: {
     pointsMoney: Number,
+  },
+
+  components: {
+    Settings,
+  },
+
+  methods: {
+    OpenSettingsCard() {
+      this.visibilitySettings = true;
+    },
+    CloseSettingsCard() {
+      this.visibilitySettings = false;
+    },
   },
 };
 </script>
@@ -17,6 +36,7 @@ export default {
           class="w-full inline-flex items-center retrato-tablet:flex-col flex-row retrato-tablet:justify-center gap-3 retrato-tablet:gap-8"
         >
           <button
+          @click="OpenSettingsCard"
             class="text-white transition-all hover:text-zinc-700 retrato-tablet:hidden inline-flex"
             title="Menu"
           >
@@ -41,14 +61,7 @@ export default {
               >A<span class="text-white">S</span>K</a
             >
           </li>
-          <li class="retrato-tablet:inline-block hidden">
-            <div
-              title="Usuário"
-              class="w-10 m-auto cursor-pointer text-white hover:text-[#242424] h-10 flex items-center hover:ring-4 transition-all hover: ring-white ring-opacity-30 justify-center hover:bg-white rounded-full"
-            >
-              <h6 class="font-semibold font-['Nunito'] text-xl">Ma</h6>
-            </div>
-          </li>
+          
           <li class="retrato-tablet:inline-block hidden">
             <button
               class="text-white transition-all hover:text-zinc-700"
@@ -97,6 +110,7 @@ export default {
         class="container_navbar_end flex retrato-tablet:flex-col flex-row gap-8 items-center"
       >
         <button
+          @click="OpenSettingsCard"
           class="text-white transition-all hover:text-zinc-700 retrato-tablet:inline-flex hidden"
           title="Menu"
         >
@@ -151,8 +165,8 @@ export default {
             />
           </svg>
         </button>
-       
       </div>
     </div>
+    <Settings v-show="visibilitySettings" :closeSettingsFuntion="CloseSettingsCard"/>
   </header>
 </template>

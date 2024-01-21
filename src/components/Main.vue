@@ -4,6 +4,7 @@ import axios from "axios";
 import LoseInfo from "./LoseInfo.vue";
 import Navbar from "./Navbar.vue";
 import Congrats from "./Congrats.vue";
+import Settings from "./Settings.vue";
 
 export default {
   data() {
@@ -24,6 +25,7 @@ export default {
       questionsFinished: false,
       wrongQuestions: 0,
       correct: 0,
+      AbuttonSelected: true,
     };
   },
 
@@ -32,6 +34,7 @@ export default {
     LoseInfo,
     AtomSpinner,
     Congrats,
+    Settings,
   },
 
   mounted() {
@@ -50,6 +53,7 @@ export default {
     selectButtonOption(buttonNumber, event) {
       this.buttonSelected = buttonNumber;
       this.answerQuestion = event.target.innerText;
+      this.AbuttonSelected = false;
     },
 
     async GetAllQuestions() {
@@ -113,12 +117,11 @@ export default {
       AllButtonOption.forEach((button) => {
         button.classList.remove("correct_class");
       });
-
+      this.AbuttonSelected = true;
       this.buttonSelected = null;
       this.controllerChangeQuestion = 0;
       const totalQuestions = this.questionsArray.length;
 
-      
       if (this.questionsAlreadySelected.length >= totalQuestions) {
         this.questionsFinished = true;
         return;
@@ -126,7 +129,6 @@ export default {
 
       let AleatoryIndex;
 
-     
       do {
         AleatoryIndex = Math.floor(Math.random() * totalQuestions);
       } while (this.questionsAlreadySelected.includes(AleatoryIndex));
@@ -140,7 +142,7 @@ export default {
       this.CorrectAnswer = this.questionsArray[AleatoryIndex].answer;
     },
     RestartGameMain() {
-      this.questionsFinished = false
+      this.questionsFinished = false;
       this.wrongQuestions = 0;
       this.pointsInMoney = 100;
       this.playLose = false;
@@ -255,14 +257,15 @@ export default {
         <div class="grid retrato-tablet:grid-cols-6 grid-cols-1 gap-3 mt-5">
           <button
             @click="VerifyAnswer"
-            class="retrato-tablet:col-span-4 py-3 bg-indigo-600 text-white rounded font-medium transition-all hover:ring-4 hover:ring-indigo-700 shadow-lg ring-opacity-15"
+            :disabled="AbuttonSelected"
+            class="retrato-tablet:col-span-4 disabled:opacity-40 disabled:ring-0 py-3 bg-indigo-600 text-white rounded font-medium transition-all hover:ring-4 hover:ring-indigo-700 shadow-lg ring-opacity-15"
           >
             Responder
           </button>
           <button
             :disabled="buttonDisabled"
             @click="ChangeQuestion"
-            class="retrato-tablet:col-span-2 disabled:opacity-25 py-3 text-center font-medium rounded bg-zinc-800 shadow-lg transition-all hover:ring-4 hover:ring-zinc-800 ring-opacity-45 text-white"
+            class="retrato-tablet:col-span-2 disabled:opacity-25 py-3 disabled:ring-0 text-center font-medium rounded bg-zinc-800 shadow-lg transition-all hover:ring-4 hover:ring-zinc-800 ring-opacity-45 text-white"
           >
             Pular
           </button>
@@ -281,6 +284,7 @@ export default {
         :numberCorrectQuestions="correct"
         :functionRestartGame="RestartGameMain"
       />
+     
     </div>
   </main>
 </template>

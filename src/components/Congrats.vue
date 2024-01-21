@@ -11,25 +11,10 @@
       </header>
       <div class="mt-2 max-w-3xl w-full mx-auto">
         <div class="w-full text-center">
-          <h6 class="flex items-center justify-center text-white font-medium">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              class="w-6 h-6 me-1 fill-zinc-500"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
-                clip-rule="evenodd"
-              />
-            </svg>
-
-            Mário Lino Salembe
-          </h6>
-          <p class="text-zinc-300 font-['Inter'] text-[15px]">
-            linomario199010@gmail.com
-          </p>
+          <a href="#" class="text-2xl font-bold text-zinc-500"
+            >A<span class="text-white">S</span>K</a
+          >
+          
         </div>
 
         <div class="grid grid-cols-1 mt-6 gap-6">
