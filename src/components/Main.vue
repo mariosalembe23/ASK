@@ -61,7 +61,7 @@ export default {
     async GetAllQuestions() {
       try {
         const { data } = await axios.get(
-          "https://gist.githubusercontent.com/morphosisUp/1e93810b5af5ea978b54966c44193cbd/raw/d9b1ef960213ddf78cb3376086aec212c94d1eb3/questions"
+          "https://gist.githubusercontent.com/morphosisUp/1e93810b5af5ea978b54966c44193cbd/raw/05d16dd2474fbfd600255e9d37915fb2f470a694/questions"
         );
 
         this.questionsArray = await data.questions;

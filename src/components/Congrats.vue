@@ -3,7 +3,7 @@
     class="fixed z-40 w-full p-5 h-screen top-0 left-0 bg-opacity-90 flex items-center justify-center right-0 bg-zinc-700"
   >
     <div
-      class="fixed container_congrats overflow-y-auto bottom-0 right-0 left-0 rounded-t-3xl retrato-tablet:h-[30rem] h-full bg-zinc-800 p-5"
+      class="fixed container_congrats overflow-y-auto bottom-0 right-0 left-0 retrato-tablet:rounded-t-3xl retrato-tablet:h-[30rem] h-full bg-zinc-800 p-5"
     >
       <header class="text-center border-zinc-700 py-3">
         <h3 class="text-xl font-medium text-white">Parabéns</h3>
