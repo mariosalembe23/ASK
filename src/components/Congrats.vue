@@ -113,11 +113,7 @@
             >
               Reiniciar
             </button>
-            <button
-              class="bg-zinc-700 px-6 py-2 retrato-tablet:w-32 w-full rounded text-white font-medium transition-all hover:ring-2 hover:ring-zinc-600"
-            >
-              Sair
-            </button>
+            
           </div>
         </div>
       </div>
