@@ -43,7 +43,7 @@
             Euros por cada Resposta Certa, mas a medida que vai errando as
             questões, perdes
             <span class="px-4 py-1 rounded bg-red-600 font-medium">100</span>
-            Euros. São 60 Perguntas, Acerte o Máximo que Poder.
+            Euros. São 62 Perguntas, Acerte o Máximo que Poder.
           </p>
         </div>
         <div class="px-3 py-2">
