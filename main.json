@@ -201,9 +201,14 @@
       "answer": "Tóquio"
     },
     {
-      "question": "Qual é a maior ilha do mundo?",
-      "options": ["Borneo", "Java", "Groenlândia", "Austrália"],
-      "answer": "Groenlândia"
+      "question": "Quem é considerado o pai da teoria da relatividade?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Niels Bohr",
+        "Galileu Galilei"
+      ],
+      "answer": "Albert Einstein"
     },
     {
       "question": "Quem foi o fundador da Microsoft?",
