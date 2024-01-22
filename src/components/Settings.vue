@@ -1,9 +1,9 @@
 <template>
   <aside
-    class="fixed z-60 w-full h-full top-0 left-0 right-0 p-2 bg-[#242424] flex retrato-tablet:items-center justify-center"
+    class="fixed z-50 w-full h-full top-0 left-0 right-0 p-2 bg-[#242424] flex retrato-tablet:items-center justify-center"
   >
     <div
-      class="max-w-2xl card_settings mx-auto retrato-tablet:mt-0 mt-10 w-full"
+      class="max-w-2xl card_settings h-full retrato-tablet:h-auto mx-auto retrato-tablet:mt-0 mt-10 w-full"
     >
       <header class="flex justify-between items-center px-3">
         <h2 class="flex items-center justify-center text-zinc-400 font-medium">
