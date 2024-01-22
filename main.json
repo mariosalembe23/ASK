@@ -176,7 +176,7 @@
         "O Senhor dos Anéis",
         "Dom Quixote",
         "Bíblia",
-        "Citações do Presidente Mao Tse-tung"
+        "Citações de Mao Tse-tung"
       ],
       "answer": "Bíblia"
     },
@@ -226,9 +226,9 @@
       "answer": "384.400 milhas"
     },
     {
-      "question": "Qual é o país mais extenso do mundo?",
-      "options": ["Estados Unidos", "China", "Rússia", "Canadá"],
-      "answer": "Rússia"
+      "question": "Em que país está localizado o Parque Nacional Kruger, famoso por sua vida selvagem?",
+      "options": ["Quênia", "Tanzânia", "África do Sul", "Namíbia"],
+      "answer": "África do Sul"
     },
     {
       "question": "Qual é o país mais rápido do mundo?",
@@ -346,9 +346,9 @@
       "answer": "Oceânia"
     },
     {
-      "question": "Qual é o país mais extenso do mundo?",
-      "options": ["Rússia", "Canadá", "China", "Estados Unidos"],
-      "answer": "Rússia"
+      "question": "Qual é o instrumento musical tradicional mais associado à cultura africana?",
+      "options": ["Berimbau", "Sitar", "Didgeridoo", "Kora"],
+      "answer": "Kora"
     },
     {
       "question": "Quem foi Nelson Mandela?",
@@ -367,12 +367,22 @@
     },
     {
       "question": "Quem é conhecido como o Rei do Afrobeat?",
-      "options": ["Fela Kuti", "Miriam Makeba", "Youssou N'Dour", "Angelique Kidjo"],
+      "options": [
+        "Fela Kuti",
+        "Miriam Makeba",
+        "Youssou N'Dour",
+        "Angelique Kidjo"
+      ],
       "answer": "Fela Kuti"
     },
     {
       "question": "O que é a dança Gumboot?",
-      "options": ["Dança Tribal", "Dança de Rua", "Dança Ritual", "Dança Teatral"],
+      "options": [
+        "Dança Tribal",
+        "Dança de Rua",
+        "Dança Ritual",
+        "Dança Teatral"
+      ],
       "answer": "Dança de Rua"
     },
     {
@@ -392,7 +402,12 @@
     },
     {
       "question": "Quem Foi o Escritor do Livo 'A Segunda Mulher'?",
-      "options": ["José Saramago", "Helton Cassoma", "Fernando Pessoa", "Sophia Andresen"],
+      "options": [
+        "José Saramago",
+        "Helton Cassoma",
+        "Fernando Pessoa",
+        "Sophia Andresen"
+      ],
       "answer": "Helton Cassoma"
     }
   ]
