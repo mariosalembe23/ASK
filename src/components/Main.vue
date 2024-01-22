@@ -251,7 +251,7 @@ export default {
             :key="index"
             @click="selectButtonOption(index + 1, $event)"
             :class="{ buttonSelected: buttonSelected === index + 1 }"
-            class="py-4 transition-all button_option p-2 hover:ring-[#666464] focus:ring-white focus:ring-opacity-10 hover:ring-opacity-25 hover:border-white rounded bg-[#242424] border border-zinc-700 ring-4 ring-[#444343] ring-opacity-15 shadow-lg text-white retrato-tablet:font-medium"
+            class="py-4 transition-all retrato-tablet:text-base text-[15px] button_option p-2 hover:ring-[#666464] focus:ring-white focus:ring-opacity-10 hover:ring-opacity-25 hover:border-white rounded bg-[#242424] border border-zinc-700 ring-4 ring-[#444343] ring-opacity-15 shadow-lg text-white retrato-tablet:font-medium"
           >
             {{ option }}
           </button>
